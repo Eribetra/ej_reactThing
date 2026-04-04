@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@source "../app/**/*.{js,ts,jsx,tsx}";
+@source "../app/components/**/*.{js,ts,jsx,tsx}";
+
+@theme {
+  --font-sans: var(--font-montserrat);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+body {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+h1, h2, h3, h4, p, a, span, button {
+  text-transform: uppercase;
+}
